@@ -19,6 +19,9 @@ export default function Footer() {
         <div className="footer-links">
           <Link to="/terms">{t.nav.terms}</Link>
           <Link to="/privacy">{t.nav.privacy}</Link>
+          <Link to="/delete-account">
+            {lang === "mn" ? "Бүртгэл устгах" : "Delete account"}
+          </Link>
           <a href={`mailto:${t.footer.contactEmail}`}>
             {t.footer.contact}: {t.footer.contactEmail}
           </a>
