@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 660" width="320" height="660" fill="none">
   <defs>
     <linearGradient id="feed" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4c1d95"/>
-      <stop offset="1" stop-color="#7c3aed"/>
+      <stop offset="0" stop-color="#b8531f"/>
+      <stop offset="1" stop-color="#f67d2a"/>
     </linearGradient>
     <clipPath id="screen"><rect x="16" y="16" width="288" height="628" rx="38"/></clipPath>
   </defs>
@@ -19,20 +19,20 @@
 
     <!-- play button -->
     <circle cx="160" cy="300" r="34" fill="#ffffff" opacity="0.9"/>
-    <path d="M152 286l20 14-20 14v-28z" fill="#7c3aed"/>
+    <path d="M152 286l20 14-20 14v-28z" fill="#f67d2a"/>
 
     <!-- right action rail -->
     <g fill="#ffffff">
       <circle cx="278" cy="430" r="16" opacity="0.95"/>
-      <path d="M278 424c-3-4-9-2-9 3 0 4 9 9 9 9s9-5 9-9c0-5-6-7-9-3z" fill="#7c3aed"/>
+      <path d="M278 424c-3-4-9-2-9 3 0 4 9 9 9 9s9-5 9-9c0-5-6-7-9-3z" fill="#f67d2a"/>
       <text x="278" y="460" font-family="Arial" font-size="9" text-anchor="middle">12k</text>
 
       <circle cx="278" cy="486" r="16" opacity="0.95"/>
-      <path d="M271 480h14v9h-7l-4 4v-4h-3z" fill="#7c3aed"/>
+      <path d="M271 480h14v9h-7l-4 4v-4h-3z" fill="#f67d2a"/>
       <text x="278" y="516" font-family="Arial" font-size="9" text-anchor="middle">340</text>
 
       <circle cx="278" cy="542" r="16" opacity="0.95"/>
-      <path d="M273 536l11 6-11 6v-12z" fill="#7c3aed"/>
+      <path d="M273 536l11 6-11 6v-12z" fill="#f67d2a"/>
       <text x="278" y="572" font-family="Arial" font-size="9" text-anchor="middle">Share</text>
     </g>
 

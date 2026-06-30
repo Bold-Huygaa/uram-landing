@@ -10,9 +10,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link to="/" className="brand">
-          <span className="brand-mark" aria-hidden>
-            ▶
-          </span>
+          <img className="brand-mark" src="/logo.svg" alt="" aria-hidden width={28} height={28} />
           Uram
         </Link>
 
