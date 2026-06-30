@@ -26,12 +26,15 @@ export default function Landing() {
           </div>
 
           <div className="hero-shot">
-            <img
-              src="/app-screenshot.svg"
-              alt="Uram app screenshot"
-              width={320}
-              height={660}
-            />
+            <div className="phone">
+              <span className="phone-notch" aria-hidden />
+              <img
+                src="/app-screen.png"
+                alt="Uram app feed"
+                width={300}
+                height={650}
+              />
+            </div>
           </div>
         </div>
       </section>
