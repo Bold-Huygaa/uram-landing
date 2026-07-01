@@ -12,7 +12,7 @@ type UIStrings = {
   };
   features: {
     title: string;
-    items: { title: string; body: string }[];
+    items: { asset: string; title: string; body: string }[];
   };
   safety: {
     title: string;
@@ -43,23 +43,27 @@ export const ui: Record<Lang, UIStrings> = {
       comingSoon: "Coming soon",
     },
     features: {
-      title: "What you can do",
+      title: "How it works",
       items: [
         {
-          title: "Share your videos",
-          body: "Upload short videos in seconds and reach a community that cares.",
+          asset: "/onboarding/welcome.svg",
+          title: "Welcome to Uram",
+          body: "Send three short videos and get your event ticket.",
         },
         {
-          title: "Discover content",
-          body: "A personalized feed surfaces the videos you’ll love.",
+          asset: "/onboarding/record.svg",
+          title: "Send a video",
+          body: "Record up to 15 seconds on your phone and submit it — our team reviews and verifies each clip.",
         },
         {
-          title: "Connect with people",
-          body: "Follow creators, comment, and build your own audience.",
+          asset: "/onboarding/share.svg",
+          title: "Share on social and add the link",
+          body: "Once verified, share your video publicly on social media and paste the post link back into the app.",
         },
         {
-          title: "Safe by design",
-          body: "Reporting, blocking and active moderation keep the community healthy.",
+          asset: "/onboarding/ticket.svg",
+          title: "Get your ticket",
+          body: "When your 3 videos are verified, your ticket appears as a QR code inside the Uram app.",
         },
       ],
     },
@@ -95,23 +99,27 @@ export const ui: Record<Lang, UIStrings> = {
       comingSoon: "Удахгүй",
     },
     features: {
-      title: "Та юу хийх вэ",
+      title: "Хэрхэн ажилладаг вэ",
       items: [
         {
-          title: "Видеогоо хуваалц",
-          body: "Хэдхэн секундэд богино видео байршуулж, нийгэмлэгтээ хүр.",
+          asset: "/onboarding/welcome.svg",
+          title: "Урамд тавтай морил",
+          body: "Гурван богино бичлэг илгээгээд тоглолтын тасалбараа аваарай.",
         },
         {
-          title: "Контент нээ",
-          body: "Хувийн тохиргоотой фийд таны дуртай видеог санал болгоно.",
+          asset: "/onboarding/record.svg",
+          title: "Бичлэг илгээх",
+          body: "Та утсаараа 15 сек хүртэлх бичлэгээ хийж илгээх бөгөөд бид таны бичлэгийг үзэж баталгаажуулна.",
         },
         {
-          title: "Хүмүүстэй холбогд",
-          body: "Бүтээгчдийг дагаж, сэтгэгдэл бичиж, өөрийн үзэгчдийг бий болго.",
+          asset: "/onboarding/share.svg",
+          title: "Сошиал дээр хуваалцаад линкээ оруулна",
+          body: "Баталгаажсаны дараа бичлэгээ сошиал сүлжээнд нийтэд хуваалцаж, постынхоо линкийг апп дээр оруулна.",
         },
         {
-          title: "Анхнаасаа аюулгүй",
-          body: "Гомдол мэдээлэх, блоклох, идэвхтэй модерац нийгэмлэгийг эрүүл байлгана.",
+          asset: "/onboarding/ticket.svg",
+          title: "Тасалбараа авна",
+          body: "Таны 3 ширхэг бичлэг баталгаажсанаар тасалбар QR хэлбэрээр УРАМ апп дээр орно.",
         },
       ],
     },

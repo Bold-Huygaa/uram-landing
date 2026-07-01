@@ -63,13 +63,20 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="container feature-strip">
-        {t.features.items.map((f) => (
-          <div key={f.title} className="feature-item">
-            <h3>{f.title}</h3>
-            <p>{f.body}</p>
-          </div>
-        ))}
+      <section className="container steps">
+        <h2 className="steps-title">{t.features.title}</h2>
+        <div className="steps-grid">
+          {t.features.items.map((f, i) => (
+            <div key={f.title} className="step-item">
+              <div className="step-art">
+                <img src={f.asset} alt={f.title} width={200} height={200} />
+                <span className="step-num">{i + 1}</span>
+              </div>
+              <h3>{f.title}</h3>
+              <p>{f.body}</p>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );
