@@ -37,7 +37,7 @@ export const ui: Record<Lang, UIStrings> = {
       badge: "Video community",
       title: "Uram",
       subtitle:
-        "Create, share and discover short videos. Express yourself, find your people, and watch what inspires you.",
+        "Send 3 short videos, share them on social, and get your event ticket as a QR code — right inside the app.",
       ctaApple: "Download on the App Store",
       ctaGoogle: "Get it on Google Play",
       comingSoon: "Coming soon",
@@ -90,10 +90,10 @@ export const ui: Record<Lang, UIStrings> = {
   mn: {
     nav: { home: "Нүүр", terms: "Үйлчилгээний нөхцөл", privacy: "Нууцлал" },
     hero: {
-      badge: "Видео нийгэмлэг",
+      badge: "Урам өгцгөөе!",
       title: "Uram",
       subtitle:
-        "Богино видео хийж, хуваалцаж, нээ. Өөрийгөө илэрхийл, дуртай хүмүүсээ ол, урам зориг өгөх контентыг үз.",
+        "3 богино бичлэгээ илгээж, сошиал сүлжээндээ хуваалцаад тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
       ctaApple: "App Store-оос татах",
       ctaGoogle: "Google Play-ээс татах",
       comingSoon: "Удахгүй",
