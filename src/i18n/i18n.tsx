@@ -9,7 +9,7 @@ import {
 
 export type Lang = "en" | "mn";
 
-const STORAGE_KEY = "uram-lang";
+const STORAGE_KEY = "uram-lang.v2"; // v2: ignore stale auto-saved "en" from when EN was the default
 const DEFAULT_LANG: Lang = "mn";
 
 type Ctx = {

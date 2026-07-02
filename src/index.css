@@ -94,6 +94,7 @@ a:hover {
   padding: 8px 12px;
   border-radius: 10px;
   font-size: 14px;
+  white-space: nowrap;
 }
 .nav-link:hover {
   color: var(--text);
@@ -339,6 +340,32 @@ a.store-btn:hover {
 @media (max-width: 900px) {
   .steps-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+    row-gap: 4px;
+  }
+  .brand {
+    order: 1;
+  }
+  .lang-switch {
+    order: 2;
+    margin-left: auto;
+  }
+  .nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 2px;
+    overflow-x: auto;
+  }
+  .nav-link {
+    padding: 6px 10px;
+    font-size: 13px;
   }
 }
 @media (max-width: 480px) {
