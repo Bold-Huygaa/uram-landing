@@ -288,18 +288,28 @@ a.store-btn:hover {
   background: var(--bg-soft);
   margin-top: 24px;
   padding: 28px 0;
+  font-size: 14px;
 }
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+  align-items: flex-start;
+  gap: 16px 32px;
   flex-wrap: wrap;
 }
 .footer-links {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 20px;
   text-align: right;
+}
+.footer-links a {
+  color: var(--muted);
+  white-space: nowrap;
+}
+.footer-links a:hover {
+  color: var(--primary);
 }
 
 /* Legal pages */
