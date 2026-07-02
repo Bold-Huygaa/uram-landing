@@ -1,4 +1,6 @@
 :root {
+  /* Always light — block UA/forced dark mode */
+  color-scheme: only light;
   /* Uram design system — Figma tokens */
   --bg: #ffffff;
   --bg-soft: #fdf3ec;        /* warm orange tint */

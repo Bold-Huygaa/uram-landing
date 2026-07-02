@@ -10,7 +10,7 @@ import {
 export type Lang = "en" | "mn";
 
 const STORAGE_KEY = "uram-lang";
-const DEFAULT_LANG: Lang = "en";
+const DEFAULT_LANG: Lang = "mn";
 
 type Ctx = {
   lang: Lang;
