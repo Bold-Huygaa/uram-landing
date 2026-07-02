@@ -11,7 +11,6 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div>
-          <strong>Uram</strong> · uram.life
           <div className="muted">
             © {year} Uram. {t.footer.rights}
           </div>

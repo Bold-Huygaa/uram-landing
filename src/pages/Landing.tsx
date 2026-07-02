@@ -101,6 +101,30 @@ export default function Landing() {
           ))}
         </div>
       </section>
+
+      <section className="container">
+        <div className="ios-guide" id="ios-guide">
+          <h2>{t.iosGuide.title}</h2>
+          <p className="muted">{t.iosGuide.intro}</p>
+          <ol className="ios-guide-steps">
+            {t.iosGuide.steps.map((s) => (
+              <li key={s.title}>
+                <strong>{s.title}</strong>
+                <p>{s.body}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="ios-guide-note muted">{t.iosGuide.note}</p>
+          <a
+            className="btn-primary"
+            href="https://testflight.apple.com/join/bz72gANk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.iosGuide.cta}
+          </a>
+        </div>
+      </section>
     </>
   );
 }

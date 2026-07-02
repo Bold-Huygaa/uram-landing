@@ -1,10 +1,11 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { useLang } from "../i18n/i18n";
 import { ui } from "../i18n/strings";
 
 export default function Header() {
   const { lang, setLang } = useLang();
   const t = ui[lang];
+  const isHome = useLocation().pathname === "/";
 
   return (
     <header className="site-header">
@@ -26,20 +27,22 @@ export default function Header() {
           </NavLink>
         </nav>
 
-        <div className="lang-switch" role="group" aria-label="Language">
-          <button
-            className={lang === "en" ? "active" : ""}
-            onClick={() => setLang("en")}
-          >
-            EN
-          </button>
-          <button
-            className={lang === "mn" ? "active" : ""}
-            onClick={() => setLang("mn")}
-          >
-            MN
-          </button>
-        </div>
+        {!isHome && (
+          <div className="lang-switch" role="group" aria-label="Language">
+            <button
+              className={lang === "en" ? "active" : ""}
+              onClick={() => setLang("en")}
+            >
+              EN
+            </button>
+            <button
+              className={lang === "mn" ? "active" : ""}
+              onClick={() => setLang("mn")}
+            >
+              MN
+            </button>
+          </div>
+        )}
       </div>
     </header>
   );

@@ -14,6 +14,13 @@ type UIStrings = {
     title: string;
     items: { asset: string; title: string; body: string }[];
   };
+  iosGuide: {
+    title: string;
+    intro: string;
+    steps: { title: string; body: string }[];
+    note: string;
+    cta: string;
+  };
   safety: {
     title: string;
     body: string;
@@ -67,6 +74,27 @@ export const ui: Record<Lang, UIStrings> = {
         },
       ],
     },
+    iosGuide: {
+      title: "How to install on iPhone (TestFlight)",
+      intro:
+        "Uram for iOS is currently distributed as a beta through Apple TestFlight. Installing takes about a minute:",
+      steps: [
+        {
+          title: "Install TestFlight",
+          body: "Download Apple's free TestFlight app from the App Store.",
+        },
+        {
+          title: "Open the invite link",
+          body: "Tap the “Download for iOS” button on this page — it opens the Uram invite in TestFlight.",
+        },
+        {
+          title: "Accept & install",
+          body: "In TestFlight tap Accept, then Install. Uram appears on your home screen like any other app.",
+        },
+      ],
+      note: "Updates arrive automatically through TestFlight. When Uram launches on the App Store, you can switch to the store version.",
+      cta: "Open TestFlight invite",
+    },
     safety: {
       title: "Built for a safe community",
       body: "Uram has a zero-tolerance policy for objectionable content and abusive behavior. Every user agrees to our terms before posting, and our team responds to reports within 24 hours.",
@@ -93,7 +121,7 @@ export const ui: Record<Lang, UIStrings> = {
       badge: "Урам өгцгөөе!",
       title: "Uram",
       subtitle:
-        "3 богино бичлэгээ илгээж, сошиал сүлжээндээ хуваалцаад тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
+        "Талархсан, сэтгэлийн үгээ хэлсэн, урам хайрласан үгээ илэрхийлсэн 3 богино видео илгээн, өөрийн сошиал сүлжээндээ public  тохиргоотой хуваалцааж, тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
       ctaApple: "iOS-д татах",
       ctaGoogle: "Google Play-ээс татах",
       testflightNote: "TestFlight beta",
@@ -122,6 +150,27 @@ export const ui: Record<Lang, UIStrings> = {
           body: "Таны 3 ширхэг бичлэг баталгаажсанаар тасалбар QR хэлбэрээр УРАМ апп дээр орно.",
         },
       ],
+    },
+    iosGuide: {
+      title: "iPhone дээр хэрхэн суулгах вэ (TestFlight)",
+      intro:
+        "Uram-ийн iOS хувилбар одоогоор Apple TestFlight-ээр beta байдлаар түгээгдэж байна. Суулгахад минут ч хүрэхгүй:",
+      steps: [
+        {
+          title: "TestFlight суулгах",
+          body: "App Store-оос Apple-ийн үнэгүй TestFlight аппыг татаж суулгана.",
+        },
+        {
+          title: "Урилгын линк нээх",
+          body: "Энэ хуудасны «iOS-д татах» товчийг дарахад TestFlight дээр Uram-ийн урилга нээгдэнэ.",
+        },
+        {
+          title: "Accept → Install",
+          body: "TestFlight дотор Accept, дараа нь Install товчийг дарна. Uram таны нүүр дэлгэцэд бусад апп шиг суугдана.",
+        },
+      ],
+      note: "Шинэчлэлт TestFlight-ээр автоматаар ирнэ. Uram App Store дээр албан ёсоор гарахад дэлгүүрийн хувилбар руу шилжинэ.",
+      cta: "TestFlight урилга нээх",
     },
     safety: {
       title: "Аюулгүй нийгэмлэгт зориулсан",
