@@ -154,7 +154,7 @@ export const ui: Record<Lang, UIStrings> = {
     iosGuide: {
       title: "iPhone дээр хэрхэн суулгах вэ (TestFlight)",
       intro:
-        "Uram-ийн iOS хувилбар одоогоор Apple TestFlight-ээр beta байдлаар түгээгдэж байна. Суулгахад минут ч хүрэхгүй:",
+        "Uram-ийн iOS хувилбар одоогоор Apple TestFlight-ээр beta байдлаар түгээгдэж байна.",
       steps: [
         {
           title: "TestFlight суулгах",
