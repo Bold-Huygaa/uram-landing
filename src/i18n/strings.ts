@@ -8,7 +8,7 @@ type UIStrings = {
     subtitle: string;
     ctaApple: string;
     ctaGoogle: string;
-    comingSoon: string;
+    testflightNote: string;
   };
   features: {
     title: string;
@@ -38,9 +38,9 @@ export const ui: Record<Lang, UIStrings> = {
       title: "Uram",
       subtitle:
         "Send 3 short videos, share them on social, and get your event ticket as a QR code — right inside the app.",
-      ctaApple: "Download on the App Store",
+      ctaApple: "Download for iOS",
       ctaGoogle: "Get it on Google Play",
-      comingSoon: "Coming soon",
+      testflightNote: "TestFlight beta",
     },
     features: {
       title: "How it works",
@@ -94,9 +94,9 @@ export const ui: Record<Lang, UIStrings> = {
       title: "Uram",
       subtitle:
         "3 богино бичлэгээ илгээж, сошиал сүлжээндээ хуваалцаад тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
-      ctaApple: "App Store-оос татах",
+      ctaApple: "iOS-д татах",
       ctaGoogle: "Google Play-ээс татах",
-      comingSoon: "Удахгүй",
+      testflightNote: "TestFlight beta",
     },
     features: {
       title: "Хэрхэн ажилладаг вэ",
