@@ -372,6 +372,18 @@ a.store-btn:hover {
 .footer-links a:hover {
   color: var(--primary);
 }
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.footer-social a {
+  display: inline-flex;
+  color: var(--muted);
+}
+.footer-social a:hover {
+  color: var(--primary);
+}
 
 /* Legal pages */
 .legal {
