@@ -37,7 +37,7 @@ export const ui: Record<Lang, UIStrings> = {
       title: "Uram",
       subtitle:
         "Send 3 short videos, share them on social, and get your event ticket as a QR code — right inside the app.",
-      ctaApple: "Download for iOS",
+      ctaApple: "Download on the App Store",
       ctaGoogle: "Get it on Google Play",
     },
     features: {
@@ -92,7 +92,7 @@ export const ui: Record<Lang, UIStrings> = {
       title: "Uram",
       subtitle:
         "Талархсан, сэтгэлийн үгээ хэлсэн, урам хайрласан үгээ илэрхийлсэн 3 богино видео илгээн, өөрийн сошиал сүлжээндээ public  тохиргоотой хуваалцааж, тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
-      ctaApple: "iOS-д татах",
+      ctaApple: "App Store-с татах",
       ctaGoogle: "Google Play-ээс татах",
     },
     features: {
