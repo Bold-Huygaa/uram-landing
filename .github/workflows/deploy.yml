@@ -33,8 +33,19 @@ jobs:
 
       - run: pnpm build
 
-      # SPA fallback: serve index.html for /terms, /privacy on direct load
+      # SPA fallback for unknown paths. Serves the app, but with HTTP 404 —
+      # fine for humans, not for crawlers that check the status code.
       - run: cp dist/index.html dist/404.html
+
+      # Real 200 responses for the routes external validators fetch (Meta app
+      # settings, App Store / Play console). GitHub Pages serves `<name>.html`
+      # for an extension-less `/<name>` request; React Router takes over from
+      # there, so the copied index.html renders the right page.
+      - name: Emit static entry points for SPA routes
+        run: |
+          for route in terms privacy delete-account; do
+            cp dist/index.html "dist/$route.html"
+          done
 
       - uses: actions/configure-pages@v5
 
