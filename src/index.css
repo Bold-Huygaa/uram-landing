@@ -363,7 +363,7 @@ a.store-btn:hover {
   .header-inner {
     flex-wrap: wrap;
     height: auto;
-    padding: 10px 0;
+    padding: 10px 16px;
     row-gap: 4px;
   }
   .brand {
