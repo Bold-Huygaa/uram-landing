@@ -36,7 +36,7 @@ export const ui: Record<Lang, UIStrings> = {
       badge: "Video community",
       title: "Uram",
       subtitle:
-        "Send 3 short videos, share them on social, and get your event ticket as a QR code — right inside the app.",
+        "Send 1 short video, share it on social, and get your event ticket as a QR code — right inside the app.",
       ctaApple: "Download on the App Store",
       ctaGoogle: "Get it on Google Play",
     },
@@ -46,7 +46,7 @@ export const ui: Record<Lang, UIStrings> = {
         {
           asset: "/onboarding/welcome.svg",
           title: "Welcome to Uram",
-          body: "Send three short videos and get your event ticket.",
+          body: "Send one short video and get your event ticket.",
         },
         {
           asset: "/onboarding/record.svg",
@@ -61,7 +61,7 @@ export const ui: Record<Lang, UIStrings> = {
         {
           asset: "/onboarding/ticket.svg",
           title: "Get your ticket",
-          body: "When your 3 videos are verified, your ticket appears as a QR code inside the Uram app.",
+          body: "When your video is verified, your ticket appears as a QR code inside the Uram app.",
         },
       ],
     },
@@ -91,7 +91,7 @@ export const ui: Record<Lang, UIStrings> = {
       badge: "Урам өгцгөөе!",
       title: "Uram",
       subtitle:
-        "Талархсан, сэтгэлийн үгээ хэлсэн, урам хайрласан үгээ илэрхийлсэн 3 богино видео илгээн, өөрийн сошиал сүлжээндээ public  тохиргоотой хуваалцааж, тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
+        "Талархсан, сэтгэлийн үгээ хэлсэн, урам хайрласан үгээ илэрхийлсэн 1 богино видео илгээн, өөрийн сошиал сүлжээндээ public  тохиргоотой хуваалцааж, тоглолтын тасалбараа QR хэлбэрээр шууд апп дээрээ аваарай.",
       ctaApple: "App Store-с татах",
       ctaGoogle: "Google Play-ээс татах",
     },
@@ -101,7 +101,7 @@ export const ui: Record<Lang, UIStrings> = {
         {
           asset: "/onboarding/welcome.svg",
           title: "Урамд тавтай морил",
-          body: "Гурван богино бичлэг илгээгээд тоглолтын тасалбараа аваарай.",
+          body: "1 богино бичлэг илгээгээд тоглолтын тасалбараа аваарай.",
         },
         {
           asset: "/onboarding/record.svg",
@@ -116,7 +116,7 @@ export const ui: Record<Lang, UIStrings> = {
         {
           asset: "/onboarding/ticket.svg",
           title: "Тасалбараа авна",
-          body: "Таны 3 ширхэг бичлэг баталгаажсанаар тасалбар QR хэлбэрээр УРАМ апп дээр орно.",
+          body: "Таны 1 ширхэг бичлэг баталгаажсанаар тасалбар QR хэлбэрээр УРАМ апп дээр орно.",
         },
       ],
     },
